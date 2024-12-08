@@ -1,0 +1,113 @@
+/* for navigation bar of each page */
+.nav-bar {
+    margin: 2px 0 2px;
+  }
+  
+  /* for sortable column headers */
+  .sortable:hover {
+    cursor: pointer;
+  }
+  
+  /* for search suggestion dropdown */
+  #suggestionsDropdown {
+    max-height: 200px;
+    overflow-y: auto;
+    cursor: pointer;
+  }
+  
+  /* for entry forms */
+  .form-section {
+    margin-top: 2rem;
+  }
+  
+  /* for text boxes */
+  .form-control.is-valid {
+    border-color: #198754; /* Green border for success */
+    background-color: #d4edda; /* Light green background */
+  }
+  
+  .form-control.is-valid:focus {
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+  }
+  
+  .form-control.is-warning {
+    border-color: #ffc107; /* Yellow border for warning */
+    background-color: #fff3cd; /* Light yellow background */
+  }
+  
+  .form-control.is-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+  }
+  
+  .form-control.is-invalid {
+    border-color: #dc3545; /* Red border for error */
+    background-color: #f8d7da; /* Light red background */
+  }
+  
+  .form-control.is-invalid:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  }
+  
+  /* for the clear my choice option */
+  .clear-selection {
+    text-decoration: underline;
+    color: darkgray;
+    cursor: pointer;
+  }
+  
+  .clear-selection:hover {
+    color: gray;
+  }
+  
+  /* for multiple countires select dropdown */
+  .dropdown-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .dropdown-list-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-list-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 38px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .selected-item {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .selected-item .remove-item {
+    margin-left: 8px;
+    cursor: pointer;
+  }
